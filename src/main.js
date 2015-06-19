@@ -26,6 +26,7 @@ function replaceText(node) {
   	  text = text.replace(/trait/gi, "tr8");
   	  text = text.replace(/wait/gi, "w8");
   	  text = text.replace(/great/gi, "gr8");
+  	  text = text.replace(/eight/gi, "8");
 
   	  node.nodeValue = text;
   	  break;
