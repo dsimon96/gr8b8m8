@@ -3,7 +3,7 @@
 
   "name": "gr8 b8 m8",
   "description": "Replaces most instances of 'ate' and 'ait' with 8",
-  "version": "8.8",
+  "version": "8.88",
 
   "content_scripts": [
     {
