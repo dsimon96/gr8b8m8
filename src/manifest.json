@@ -1,15 +1,16 @@
 {
-  "manifest version": 1,
+  "manifest_version": 2,
 
   "name": "gr8 b8 m8",
   "description": "Replaces most instances of 'ate' and 'ait' with 8",
   "version": "8",
 
-  "content-scripts": [
+  "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["main.js"],
-      "all_frames": true,
+      "run_at": "document_end",
+      "all_frames": true
     }
   ]
 }
